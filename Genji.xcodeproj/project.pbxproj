@@ -12,6 +12,14 @@
 		50232429204329020073EFD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50232427204329020073EFD3 /* Main.storyboard */; };
 		5023242B204329020073EFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5023242A204329020073EFD3 /* Assets.xcassets */; };
 		5023242E204329020073EFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5023242C204329020073EFD3 /* LaunchScreen.storyboard */; };
+		5023244320433F8B0073EFD3 /* mada_mada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023243A20433F8A0073EFD3 /* mada_mada.mp3 */; };
+		5023244420433F8B0073EFD3 /* waga_kokoro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023243B20433F8A0073EFD3 /* waga_kokoro.mp3 */; };
+		5023244620433F8B0073EFD3 /* healing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023243D20433F8A0073EFD3 /* healing.mp3 */; };
+		5023244720433F8B0073EFD3 /* sono_teido_ka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023243E20433F8A0073EFD3 /* sono_teido_ka.mp3 */; };
+		5023244820433F8B0073EFD3 /* kakugo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023243F20433F8A0073EFD3 /* kakugo.mp3 */; };
+		5023244920433F8B0073EFD3 /* ultimate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023244020433F8A0073EFD3 /* ultimate.mp3 */; };
+		5023244A20433F8B0073EFD3 /* arigato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023244120433F8A0073EFD3 /* arigato.mp3 */; };
+		5023244B20433F8B0073EFD3 /* to_know_yourself.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5023244220433F8B0073EFD3 /* to_know_yourself.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		5023242A204329020073EFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5023242D204329020073EFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5023242F204329020073EFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5023243A20433F8A0073EFD3 /* mada_mada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mada_mada.mp3; sourceTree = "<group>"; };
+		5023243B20433F8A0073EFD3 /* waga_kokoro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waga_kokoro.mp3; sourceTree = "<group>"; };
+		5023243D20433F8A0073EFD3 /* healing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = healing.mp3; sourceTree = "<group>"; };
+		5023243E20433F8A0073EFD3 /* sono_teido_ka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sono_teido_ka.mp3; sourceTree = "<group>"; };
+		5023243F20433F8A0073EFD3 /* kakugo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kakugo.mp3; sourceTree = "<group>"; };
+		5023244020433F8A0073EFD3 /* ultimate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ultimate.mp3; sourceTree = "<group>"; };
+		5023244120433F8A0073EFD3 /* arigato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arigato.mp3; sourceTree = "<group>"; };
+		5023244220433F8B0073EFD3 /* to_know_yourself.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = to_know_yourself.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +76,24 @@
 				5023242A204329020073EFD3 /* Assets.xcassets */,
 				5023242C204329020073EFD3 /* LaunchScreen.storyboard */,
 				5023242F204329020073EFD3 /* Info.plist */,
+				5023243920433F6F0073EFD3 /* Sound Files */,
 			);
 			path = Genji;
+			sourceTree = "<group>";
+		};
+		5023243920433F6F0073EFD3 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				5023244120433F8A0073EFD3 /* arigato.mp3 */,
+				5023243D20433F8A0073EFD3 /* healing.mp3 */,
+				5023243F20433F8A0073EFD3 /* kakugo.mp3 */,
+				5023243A20433F8A0073EFD3 /* mada_mada.mp3 */,
+				5023243E20433F8A0073EFD3 /* sono_teido_ka.mp3 */,
+				5023244220433F8B0073EFD3 /* to_know_yourself.mp3 */,
+				5023244020433F8A0073EFD3 /* ultimate.mp3 */,
+				5023243B20433F8A0073EFD3 /* waga_kokoro.mp3 */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +155,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5023244320433F8B0073EFD3 /* mada_mada.mp3 in Resources */,
 				5023242E204329020073EFD3 /* LaunchScreen.storyboard in Resources */,
+				5023244920433F8B0073EFD3 /* ultimate.mp3 in Resources */,
+				5023244A20433F8B0073EFD3 /* arigato.mp3 in Resources */,
+				5023244420433F8B0073EFD3 /* waga_kokoro.mp3 in Resources */,
 				5023242B204329020073EFD3 /* Assets.xcassets in Resources */,
+				5023244B20433F8B0073EFD3 /* to_know_yourself.mp3 in Resources */,
+				5023244720433F8B0073EFD3 /* sono_teido_ka.mp3 in Resources */,
+				5023244820433F8B0073EFD3 /* kakugo.mp3 in Resources */,
 				50232429204329020073EFD3 /* Main.storyboard in Resources */,
+				5023244620433F8B0073EFD3 /* healing.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJ986LMAF5;
 				INFOPLIST_FILE = Genji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.webdevhut.Genji;
@@ -289,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJ986LMAF5;
 				INFOPLIST_FILE = Genji/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.webdevhut.Genji;

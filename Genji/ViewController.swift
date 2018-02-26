@@ -7,19 +7,46 @@
 //
 
 import UIKit
+import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
+    
+    var audioPlayer : AVAudioPlayer!
+    let soundArray = ["arigato", "healing", "kakugo", "mada_mada", "sono_teido_ka", "to_know_yourself", "ultimate", "waga_kokoro"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    // Make the Status Bar Light/Dark Content for this View
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return UIStatusBarStyle.lightContent
+        //return UIStatusBarStyle.default   // Make dark again
     }
-
+    
+    
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        
+        let selectedSoundFileName : String = soundArray[sender.tag - 1]
+        
+        playSound(passedSound : selectedSoundFileName)
+        
+    }
+    
+    func playSound(passedSound : String) {
+        
+        let soundURL = Bundle.main.url(forResource: passedSound, withExtension: "mp3")
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+        } catch {
+            print(error)
+        }
+        
+        audioPlayer.play()
+        
+    }
+    
 
 }
 
